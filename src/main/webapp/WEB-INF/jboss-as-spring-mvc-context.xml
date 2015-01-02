@@ -10,7 +10,7 @@
 
 	<mvc:annotation-driven />
 
-	<import resource="WEB-INF/application.xml" />
+	<import resource="classpath:application.xml" />
 
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/"/>
