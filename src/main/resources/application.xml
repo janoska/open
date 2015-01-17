@@ -8,9 +8,9 @@
     <!--<mvc:resources mapping="/resources/**" location="resources/"/>-->
 
     <bean id="dbConnection" class="storage.DbConnection">
-        <property name="address" value="localhost:3306/iaubaculejer" />
-        <property name="user" value="root" />
-        <property name="password" value="janos" />
+        <property name="address" value="127.5.182.130:3306/iaubaculejer" />
+        <property name="user" value="adminvf4fSk7" />
+        <property name="password" value="7bskEuCydC2V" />
     </bean>
 
     <bean id="dSource" class="storage.DataSource">
